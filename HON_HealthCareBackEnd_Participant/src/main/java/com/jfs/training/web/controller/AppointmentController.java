@@ -109,7 +109,7 @@ public class AppointmentController {
                  .body(savedAppointment);
 
     }
-
+        Sysout.println("Appointment saved successfully: " + savedAppointment);
     /**
      * Handles all uncaught exceptions.
      */
